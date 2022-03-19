@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(18, 18, 156);
+    height: 60px;
+}
+h1{
+    font-size: 18px;
+    padding-top: 5px;
+    text-align: center;   
+}
+
+#searchbar {
+    height: 650px;
+    background-color: rgb(228, 228, 228);
+}
+p {
+    font-size: 24px;
+    text-align: center;
+}
+input {
+    height: 30px;
+     padding-left: 30px;   
+}
+button {
+    background-color: gray;
+}
+#forecast {
+    flex-direction: column;
+    height: 750px;
+}
+#top {
+    background-color: white;
+    height: 310px;
+    border: rgb(228, 228, 228) solid .5px;
+
+    
+}
+#bottom {
+    background-color: white;
+    height: 310px;
+    border: rgb(228, 228, 228) solid .5px;
+    margin-top: 20px;
+}
+#fiveboxes {
+    border: rgb(228, 228, 228) solid .5px;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+
+
+}
+#weather {
+    background-color: rgb(18, 18, 156);
+    /* border: 2px solid black; */
+    height: 250px;
+    width: 180px;
+    display: inline-flex;
+    margin-right: 20px;
+    align-items: center;
+}
