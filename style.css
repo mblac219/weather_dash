@@ -54,7 +54,6 @@ button {
 }
 #weather {
     background-color: rgb(18, 18, 156);
-    /* border: 2px solid black; */
     height: 250px;
     width: 180px;
     display: inline-flex;
